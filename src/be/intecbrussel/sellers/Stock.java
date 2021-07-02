@@ -1,24 +1,15 @@
 package be.intecbrussel.sellers;
 
-public class Stock extends IceCreamCar{
-    int iceRockets = 20;
-    int cones = 50;
-    int balls = 0;
-    int magni = 20;
+import be.intecbrussel.eatables.IceRocket;
 
-    public Stock(PriceList priceList) {
-        super(priceList);
-    }
+public class Stock{
+    private int iceRockets = 10;
+    private int cones = 20;
+    private int balls = 10;
+    private int magni = 20;
 
-    public Stock(PriceList priceList, int iceRockets, int cones, int balls, int magni) {
-        super(priceList);
-        this.iceRockets = iceRockets;
-        this.cones = cones;
-        this.balls = balls;
-        this.magni = magni;
-    }
 
-    public int getIceRockets() {
+    public int getIceRockets(){
         return iceRockets;
     }
 
@@ -26,8 +17,8 @@ public class Stock extends IceCreamCar{
         this.iceRockets = iceRockets;
     }
 
-    public int getCones() {
 
+    public int getCones() {
         return cones;
     }
 
@@ -35,16 +26,17 @@ public class Stock extends IceCreamCar{
         this.cones = cones;
     }
 
+
     public int getBalls() {
         return balls;
     }
 
     public void setBalls(int balls) {
-
         this.balls = balls;
     }
 
-    public int getMagni() {
+
+    public int getMagni(){
         return magni;
     }
 

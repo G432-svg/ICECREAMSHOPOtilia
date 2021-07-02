@@ -1,8 +1,16 @@
 package be.intecbrussel;
 
-public class Main {
+import be.intecbrussel.eatables.IceRocket;
 
-    public static void main(String[] args) {
-	// write your code here
-    }
-}
+//try{
+//        Cone cone = iceCreamCar.orderCone(balls);
+//        }catch (NoMoreIceCreamException nmice) {
+//        System.out.println(nmice.getMessage());
+//
+////        }
+//try{
+//        IceRocket iceRocket1 = iceCreamCar.orderIceRocket();
+//        }catch (NoMoreIceCreamException nmice) {
+//        System.out.println(nmice.getMessage());
+//
+//        }

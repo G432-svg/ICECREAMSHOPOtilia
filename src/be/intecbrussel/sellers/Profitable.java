@@ -2,9 +2,7 @@ package be.intecbrussel.sellers;
 
 public interface Profitable {
 
-    default double getProfit(){
+    double getProfit();
 
-        return 0;
-    }
 
 }
